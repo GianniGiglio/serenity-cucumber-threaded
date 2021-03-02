@@ -46,6 +46,7 @@ dependencies {
 
 test {
     testLogging.showStandardStreams = true
+    maxParallelForks = 2
     systemProperties System.getProperties()
 }
 
